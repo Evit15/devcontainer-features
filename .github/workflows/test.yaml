@@ -13,12 +13,11 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - adb
         baseImage:
           - debian:latest
           - ubuntu:latest
-          - mcr.microsoft.com/devcontainers/base:ubuntu
+          - alpine:latest
     steps:
       - uses: actions/checkout@v4
 
@@ -34,8 +33,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - adb
     steps:
       - uses: actions/checkout@v4
 
