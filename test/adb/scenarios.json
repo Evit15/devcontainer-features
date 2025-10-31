@@ -1,10 +1,8 @@
 {
   "version": "1",
-  "matrix": {
-    "image": [
-      "mcr.microsoft.com/devcontainers/base:ubuntu",
-      "mcr.microsoft.com/devcontainers/base:debian",
-      "mcr.microsoft.com/devcontainers/base:alpine"
-    ]
-  }
+  "scenarios": [
+    { "name": "default", "image": "mcr.microsoft.com/devcontainers/base:ubuntu" },
+    { "name": "default", "image": "mcr.microsoft.com/devcontainers/base:debian" },
+    { "name": "default", "image": "mcr.microsoft.com/devcontainers/base:alpine" }
+  ]
 }
