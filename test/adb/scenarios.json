@@ -1,8 +1,20 @@
 {
-  "version": "1",
-  "scenarios": [
-    { "name": "default", "image": "mcr.microsoft.com/devcontainers/base:ubuntu" },
-    { "name": "default", "image": "mcr.microsoft.com/devcontainers/base:debian" },
-    { "name": "default", "image": "mcr.microsoft.com/devcontainers/base:alpine" }
-  ]
+    "ubuntu": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+        }
+    },
+    "debian": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+        }
+    },
+    "alpine": {
+        "image": "mcr.microsoft.com/devcontainers/base:alpine",
+        "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {}
+        }
+    }
 }
