@@ -1,6 +1,6 @@
 {
     "name": "Android Debug Bridge (adb) and Fastboot",
-    "id": "adb_fastboot",
+    "id": "adb-fastboot",
     "version": "1.0.0",
     "description": "A feature to interact with Android devices",
     "installsAfter": [
