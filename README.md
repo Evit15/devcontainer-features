@@ -11,7 +11,7 @@ To use any of the features in this repository, you can include them in your Dev 
 ```json
 {
   "features": {
-    "ghcr.io/Evit15/devcontainer-features/adb:1": {}
+    "ghcr.io/Evit15/devcontainer-features/adb-fastboot:1": {}
   }
 }
 ```
