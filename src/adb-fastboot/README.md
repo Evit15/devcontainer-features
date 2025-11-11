@@ -1,7 +1,12 @@
 
 # Android Debug Bridge (adb) and Fastboot (adb-fastboot)
 
-A feature to interact with Android devices
+**Android Debug Bridge (adb)** and **Fastboot** tools for connecting to, debugging, and flashing Android devices directly from within a Dev Container.
+
+- Installs [Android Platform Tools](https://developer.android.com/studio/releases/platform-tools)
+- Adds `adb` and `fastboot` to PATH automatically
+- (Linux) Optionally configures udev rules for USB device access
+- Suitable for Android developers who need device access inside containerized environments
 
 ## Example Usage
 
