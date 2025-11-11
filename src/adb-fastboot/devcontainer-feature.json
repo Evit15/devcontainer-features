@@ -1,8 +1,8 @@
 {
     "name": "Android Debug Bridge (adb) and Fastboot",
     "id": "adb-fastboot",
-    "version": "1.0.0",
-    "description": "A feature to interact with Android devices",
+    "version": "1.0.1",
+    "description": "**Android Debug Bridge (adb)** and **Fastboot** tools for connecting to, debugging, and flashing Android devices directly from within a Dev Container.\n\n- Installs [Android Platform Tools](https://developer.android.com/studio/releases/platform-tools)\n- Adds `adb` and `fastboot` to PATH automatically\n- (Linux) Optionally configures udev rules for USB device access\n- Suitable for Android developers who need device access inside containerized environments",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]
